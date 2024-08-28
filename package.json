@@ -2,7 +2,7 @@
   "tnp": {
     "resources": []
   },
-  "name": "firedev-http-server",
+  "name": "taon-http-server",
   "version": "0.0.6",
   "description": "A simple zero-configuration command-line http server",
   "main": "./lib/http-server",
@@ -21,7 +21,7 @@
     "server"
   ],
   "scripts": {
-    "start": "node ./bin/firedev-http-server",
+    "start": "node ./bin/taon-http-server",
     "test": "tap --reporter=spec test/*.test.js",
     "test-watch": "tap --reporter=spec --watch test/*.test.js"
   },
@@ -116,6 +116,6 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "firedev-http-server": "./bin/firedev-http-server"
+    "taon-http-server": "./bin/taon-http-server"
   }
 }
